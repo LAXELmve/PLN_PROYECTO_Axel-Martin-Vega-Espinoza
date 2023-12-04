@@ -25,4 +25,4 @@ Se hace una función para el pre-procesamiento de los textos, que incluye tokeni
 
 
 ETAPA 3: MACHINE LEARNING.     
-Se asignan las variables X e Y con las columnas numéricas y la columna “Rating”, respectivamente, seleccionando solo las filas sin datos nulos. Se divide el dataset en una muestra de entrenamiento y una de prueba, estratificando por la variable objetivo. Se entrenan tres modelos de clasificación: KNN, SVM y RandomForest. Se evalúa el rendimiento de los modelos usando accuracy y RMSE. Se usa el mejor modelo para predecir el “Rating” de las filas con datos nulos y se revisa si son consistentes con las reseñas.
+Se asignan las variables X e Y con las columnas numéricas y la columna “Rating”, respectivamente, seleccionando solo las filas sin datos nulos. Se divide el dataset en una muestra de entrenamiento y una de prueba, estratificando por la variable objetivo. Se entrenan tres modelos de clasificación: KNN, SVM y RandomForest. Se evalúa el rendimiento de los modelos usando accuracy y RMSE. Se usa el mejor modelo (SVM) para predecir el “Rating” de las filas con datos nulos y se revisa si son consistentes con las reseñas.
